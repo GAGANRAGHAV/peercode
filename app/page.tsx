@@ -228,20 +228,12 @@ export default function LandingPage() {
               <span className="font-serif text-xl font-bold text-foreground">PeerCode</span>
             </div>
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Privacy
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Terms
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                Support
-              </a>
+            <p>&copy; 2025 PeerCode. Built with ❤️ for the coding community.</p>
             </div>
           </div>
-          <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
-            <p>&copy; 2024 PeerCode. Built with ❤️ for the coding community.</p>
-          </div>
+          {/* <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground">
+           
+          </div> */}
         </div>
       </footer>
     </div>
